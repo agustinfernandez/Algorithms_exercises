@@ -1,0 +1,5 @@
+Dada una lista de números que representan un grupo de líneas de diferentes alturas.
+
+Encuentra dos líneas que formen un contenedor, tal que este contenga la mayor cantidad de agua.
+
+Devuelve la cantidad máxima de agua que puede almacenar un contenedor.
