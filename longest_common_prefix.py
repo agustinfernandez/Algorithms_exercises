@@ -75,10 +75,11 @@ def common_prefix(lista):
 
     return common_letters
 
-
-list = ["acabado","aca","ac","a"]
-common = common_prefix(list)
-print(common)
+if __name__ == "__main__":
+    
+    list = ["acabado","aca","ac","a"]
+    common = common_prefix(list)
+    print(common)
 
 
 

@@ -68,6 +68,6 @@ def roman_number(number):
 
     return sum
 
-
-test = roman_number("D")
-print(test)
+if __name__ == "__main__":
+    test = roman_number("D")
+    print(test)

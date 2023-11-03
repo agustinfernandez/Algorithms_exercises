@@ -31,7 +31,9 @@ def mov_zeros(lista):
             second_index += 1
     return lista
 
-move = mov_zeros([0])
-print(move)
+
+if __name__ == "__main__":
+    move = mov_zeros([0])
+    print(move)
 
 

@@ -21,8 +21,9 @@ def merge_two_sorted_list(list_1, list_2, int_1, int_2):
         
     return list_1
 
-solution = merge_two_sorted_list([-1,2,4,0,0,0], [2,5,6], 3,3)
-print(solution)
+if __name__ == "__main__":
+    solution = merge_two_sorted_list([-1,2,4,0,0,0], [2,5,6], 3,3)
+    print(solution)
 
 
 

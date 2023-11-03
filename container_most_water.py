@@ -39,9 +39,11 @@ def container(lista):
                 area = area
     return area
 
-cont = container([1,8,6,2,5,4,8,3,7])
-print(cont)
 
+
+if __name__ == "__main__":
+    cont = container([1,8,6,2,5,4,8,3,7])
+    print(cont)
 
 
         

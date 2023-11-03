@@ -42,9 +42,7 @@ def rain_water(lista):
     
     return total
 
-
-trapping = rain_water([0,1,0,2,1,0,1,3,2,1,2,1,3])
-
-
-
-print(trapping)
+if __name__ == "__main__":
+    
+    trapping = rain_water([0,1,0,2,1,0,1,3,2,1,2,1,3])
+    print(trapping)

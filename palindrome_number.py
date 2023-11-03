@@ -43,14 +43,15 @@ def palindrome(number):
         
         return True
 
-
-palindro= palindrome(1233321)
-print(palindro) 
-
-
 #-------------------------------------#
 
 def more_simple_solution(numb):
 
     x = str(x)
     return x == x[::-1]
+
+if __name__ == "__main__":
+    palindro= palindrome(1233321)
+    print(palindro) 
+
+

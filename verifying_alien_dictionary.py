@@ -39,7 +39,8 @@ def test_order(alphabet, word_list):
 
     return True
 
-palabras = [ "arbitro","conocer" ,"cono"]
+if __name__ == "__main__":
 
-test = test_order(human_dictionary,palabras)
-print(test)
+    palabras = [ "arbitro","conocer" ,"cono"]
+    test = test_order(human_dictionary,palabras)
+    print(test)

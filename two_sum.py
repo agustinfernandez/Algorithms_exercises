@@ -19,6 +19,6 @@ def twoSum(nums, target):
         if diff in seen and seen[diff]!= i:
             return[seen[diff],i]
         
-        
-llamar = twoSum(nums, target)
-print(llamar)
+if __name__ == "__main__":        
+    llamar = twoSum(nums, target)
+    print(llamar)
